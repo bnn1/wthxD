@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.btn {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #fdfdfd;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.btn:first-child {
+    background-color: rgba(99, 196, 99, 0.664);
+}
+
+.btn:last-child {
+    background-color: rgba(255, 0, 0, 0.719);
+}
+
+.big {
+    font-size: 128px;
+}

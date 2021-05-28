@@ -31,7 +31,5 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             console.log(info);
         }
     })
-    console.log(process.env.LOGIN)
-    console.log(process.env.PASS)
     res.end();
 }
